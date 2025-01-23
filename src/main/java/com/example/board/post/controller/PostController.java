@@ -42,7 +42,7 @@ public class PostController {
     @PostMapping("/create")
     public String postCreate(@Valid PostSaveReq dto){
         postService.save(dto);
-        return "redirect:/";
+        return "redirect:/post/list/paging";
     }
 
     @GetMapping("/list")
@@ -77,5 +77,12 @@ public class PostController {
                                             @PageableDefault(size = 10, sort = "id", direction = Sort.Direction.DESC) Pageable pageable){
         model.addAttribute("postListResList", postService.findAllPaging(pageable));
         return "post/post_list";
+    }
+
+    @GetMapping("/list/fetchjoin")
+    @ResponseBody
+    public String postListFetchJoin(){
+        postService.listFetchJoin();
+        return "OK";
     }
 }

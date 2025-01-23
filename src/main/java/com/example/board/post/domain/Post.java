@@ -60,4 +60,8 @@ public class Post extends BaseTimeEntity {
         this.title = postUpdateReq.getTitle();
         this.contents = postUpdateReq.getContents();
     }
+
+    public void updateAppointment(String appointment){
+        this.appointment = appointment;
+    }
 }

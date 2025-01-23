@@ -1,0 +1,797 @@
+2025-01-23 10:19 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 10:19 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 16280 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 10:19 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 10:19 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 10:19 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2025-01-23 10:19 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 10:19 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 10:19 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 10:19 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 10:19 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 10:19 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1596 ms
+2025-01-23 10:19 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 10:19 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 10:19 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 10:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 10:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 10:19 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 10:19 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 10:19 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 10:19 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 10:19 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 10:19 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 10:19 com.example.board.BoardApplication-Started BoardApplication in 4.582 seconds (JVM running for 5.369)
+2025-01-23 10:19 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 10:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 10:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 10:27 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 10:27 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 14304 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 10:27 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 10:27 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 10:27 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2025-01-23 10:27 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 10:27 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 10:27 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 10:27 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 10:27 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 10:27 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1487 ms
+2025-01-23 10:27 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 10:27 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 10:27 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 10:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 10:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 10:27 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 10:27 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 10:27 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 10:27 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 10:27 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 10:27 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 10:27 com.example.board.BoardApplication-Started BoardApplication in 3.989 seconds (JVM running for 4.652)
+2025-01-23 10:27 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 10:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 10:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 10:28 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 10:28 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 14600 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 10:28 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 10:28 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 10:28 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2025-01-23 10:28 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 10:28 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 10:28 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 10:28 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 10:28 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 10:28 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1453 ms
+2025-01-23 10:28 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 10:28 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 10:28 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 10:28 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 10:28 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 10:28 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 10:28 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 10:28 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 10:28 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 10:28 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 10:28 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 10:28 com.example.board.BoardApplication-Started BoardApplication in 4.142 seconds (JVM running for 4.818)
+2025-01-23 10:29 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 10:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 10:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 10:29 o.s.boot.SpringApplication-Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.board.BoardApplication.main(BoardApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:25 - no applicable action for [onMisMatch], current ElementPath  is [[configuration][appender][filter][onMisMatch]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+2025-01-23 10:29 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 10:29 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 16304 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 10:29 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 10:29 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 10:29 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2025-01-23 10:29 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 10:29 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 10:29 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 10:29 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 10:29 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 10:29 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1472 ms
+2025-01-23 10:29 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 10:29 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 10:29 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 10:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 10:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 10:29 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 10:29 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 10:29 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 10:29 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 10:29 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 10:29 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 10:29 com.example.board.BoardApplication-Started BoardApplication in 3.914 seconds (JVM running for 4.551)
+2025-01-23 10:30 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 10:30 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 10:30 o.s.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-01-23 10:30 c.e.b.c.controller.LogController-info log입니다.
+2025-01-23 10:30 c.e.b.c.controller.LogController-error log입니다.
+2025-01-23 10:30 c.e.b.c.controller.LogController-Slf4j info임
+2025-01-23 10:30 c.e.b.c.controller.LogController-Slf4j error임
+2025-01-23 10:30 c.e.b.c.controller.LogController-error test start
+2025-01-23 10:30 c.e.b.c.controller.LogController-에러 테스트
+2025-01-23 10:38 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 10:38 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 10:38 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 10:38 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 10:38 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 7080 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 10:38 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 10:38 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 10:38 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2025-01-23 10:38 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 10:38 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 10:38 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 10:38 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 10:38 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 10:38 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1507 ms
+2025-01-23 10:38 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 10:38 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 10:38 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 10:38 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 10:38 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 10:38 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 10:38 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 10:38 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 10:38 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 10:38 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 10:38 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 10:38 com.example.board.BoardApplication-Started BoardApplication in 4.033 seconds (JVM running for 4.645)
+2025-01-23 11:33 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 11:33 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 11:33 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 11:35 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 11:35 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 5200 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 11:35 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 11:35 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 11:35 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2025-01-23 11:35 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 11:35 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 11:35 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 11:35 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 11:35 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 11:35 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1522 ms
+2025-01-23 11:35 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 11:35 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 11:35 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 11:35 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 11:35 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 11:35 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 11:35 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 11:35 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 11:35 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 11:35 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 11:35 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 11:35 com.example.board.BoardApplication-Started BoardApplication in 4.306 seconds (JVM running for 4.961)
+2025-01-23 11:36 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 11:36 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 11:36 o.s.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-01-23 11:39 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 11:39 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 11:39 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 11:39 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 11:39 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 2228 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 11:39 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 11:39 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 11:39 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2025-01-23 11:39 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 11:39 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 11:39 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 11:39 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 11:39 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 11:39 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1585 ms
+2025-01-23 11:39 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 11:39 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 11:39 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 11:39 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 11:39 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 11:39 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 11:39 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 11:39 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 11:39 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 11:39 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 11:39 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 11:39 com.example.board.BoardApplication-Started BoardApplication in 4.301 seconds (JVM running for 4.99)
+2025-01-23 11:39 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 11:39 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 11:39 o.s.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-01-23 12:14 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:14 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 12:14 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 12:14 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 12:14 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 12940 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 12:14 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 12:14 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 12:14 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2025-01-23 12:14 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 12:14 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:14 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 12:14 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 12:14 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 12:14 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1636 ms
+2025-01-23 12:14 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 12:14 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 12:14 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 12:14 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 12:14 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 12:14 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 12:14 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 12:14 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:14 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 12:14 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:14 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 12:14 com.example.board.BoardApplication-Started BoardApplication in 4.302 seconds (JVM running for 4.958)
+2025-01-23 12:14 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 12:14 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 12:14 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-23 12:15 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:15 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 12:15 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 12:16 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 12:16 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 18416 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 12:16 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 12:16 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 12:16 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2025-01-23 12:16 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 12:16 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:16 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 12:16 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 12:16 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 12:16 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1550 ms
+2025-01-23 12:16 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 12:16 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 12:16 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 12:16 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 12:16 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 12:16 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 12:16 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 12:16 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:16 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 12:16 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:16 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 12:16 com.example.board.BoardApplication-Started BoardApplication in 4.162 seconds (JVM running for 4.861)
+2025-01-23 12:16 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 12:16 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 12:16 o.s.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-01-23 12:19 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 12:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 12:19 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 12:19 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 19180 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 12:19 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 12:19 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 12:19 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2025-01-23 12:19 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 12:19 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:19 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 12:19 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 12:19 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 12:19 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1619 ms
+2025-01-23 12:19 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 12:19 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 12:19 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 12:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 12:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 12:19 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 12:19 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 12:19 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:19 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 12:19 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:19 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 12:19 com.example.board.BoardApplication-Started BoardApplication in 4.366 seconds (JVM running for 5.017)
+2025-01-23 12:19 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 12:19 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 12:19 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-23 12:20 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:20 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 12:20 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 12:26 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 12:26 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 9348 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 12:26 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 12:26 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 12:26 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2025-01-23 12:26 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 12:26 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:26 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 12:26 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 12:26 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 12:26 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1460 ms
+2025-01-23 12:26 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 12:26 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 12:26 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 12:26 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 12:26 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 12:26 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 12:26 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 12:26 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:26 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 12:26 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:26 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 12:26 com.example.board.BoardApplication-Started BoardApplication in 4.223 seconds (JVM running for 4.861)
+2025-01-23 12:26 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 12:26 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 12:26 o.s.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-01-23 12:26 o.s.w.s.m.s.DefaultHandlerExceptionResolver-Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'postSaveReq' on field 'appointmentTime': rejected value [2025-01-23T12:26]; codes [typeMismatch.postSaveReq.appointmentTime,typeMismatch.appointmentTime,typeMismatch.java.time.LocalDateTime,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [postSaveReq.appointmentTime,appointmentTime]; arguments []; default message [appointmentTime]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.time.LocalDateTime' for property 'appointmentTime'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.time.LocalDateTime] for value [2025-01-23T12:26]; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [2025-01-23T12:26]]]
+2025-01-23 12:28 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:28 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 12:28 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 12:28 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 12:28 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 17284 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 12:28 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 12:28 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 12:28 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2025-01-23 12:28 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 12:28 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:28 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 12:28 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 12:28 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 12:28 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1663 ms
+2025-01-23 12:28 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 12:28 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 12:28 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 12:28 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 12:28 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 12:28 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 12:28 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 12:28 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:28 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 12:28 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:28 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 12:28 com.example.board.BoardApplication-Started BoardApplication in 4.408 seconds (JVM running for 5.19)
+2025-01-23 12:28 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 12:28 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 12:28 o.s.web.servlet.DispatcherServlet-Completed initialization in 12 ms
+2025-01-23 12:28 o.s.w.s.m.s.DefaultHandlerExceptionResolver-Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'postSaveReq' on field 'appointmentTime': rejected value [2025-01-23T12:26]; codes [typeMismatch.postSaveReq.appointmentTime,typeMismatch.appointmentTime,typeMismatch.java.time.LocalDateTime,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [postSaveReq.appointmentTime,appointmentTime]; arguments []; default message [appointmentTime]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.time.LocalDateTime' for property 'appointmentTime'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.time.LocalDateTime] for value [2025-01-23T12:26]; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [2025-01-23T12:26]]]
+2025-01-23 12:29 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 12:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 12:29 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 12:29 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 9304 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 12:29 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 12:29 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 12:29 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2025-01-23 12:29 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 12:29 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:29 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 12:29 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 12:29 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 12:29 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1623 ms
+2025-01-23 12:29 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 12:29 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 12:29 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 12:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 12:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 12:29 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 12:29 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 12:29 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:29 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 12:29 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:29 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 12:29 com.example.board.BoardApplication-Started BoardApplication in 4.386 seconds (JVM running for 5.086)
+2025-01-23 12:29 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 12:29 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 12:29 o.s.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-01-23 12:29 o.s.w.s.m.s.DefaultHandlerExceptionResolver-Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'postSaveReq' on field 'appointmentTime': rejected value [2025-01-23T12:26]; codes [typeMismatch.postSaveReq.appointmentTime,typeMismatch.appointmentTime,typeMismatch.java.time.LocalDateTime,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [postSaveReq.appointmentTime,appointmentTime]; arguments []; default message [appointmentTime]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.time.LocalDateTime' for property 'appointmentTime'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.time.LocalDateTime] for value [2025-01-23T12:26]; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [2025-01-23T12:26]]]
+2025-01-23 12:32 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:32 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 12:32 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 12:32 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 12:32 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 18624 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 12:32 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 12:32 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 12:32 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2025-01-23 12:32 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 12:32 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1662 ms
+2025-01-23 12:32 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 12:32 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 12:32 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 12:32 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 12:32 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 12:32 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 12:32 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 12:32 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:32 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 12:32 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 12:32 com.example.board.BoardApplication-Started BoardApplication in 4.53 seconds (JVM running for 5.677)
+2025-01-23 12:32 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:32 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 12:32 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 12:32 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 12:32 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 13836 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 12:32 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 12:33 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 12:33 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 226 ms. Found 2 JPA repository interfaces.
+2025-01-23 12:33 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 12:33 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:33 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 12:33 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 12:33 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 12:33 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 2347 ms
+2025-01-23 12:33 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 12:33 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 12:33 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 12:33 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 12:33 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 12:33 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 12:33 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 12:33 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:33 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 12:33 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:33 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 12:33 com.example.board.BoardApplication-Started BoardApplication in 6.504 seconds (JVM running for 7.344)
+2025-01-23 12:33 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 12:33 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 12:33 o.s.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-01-23 12:33 o.s.w.s.m.s.DefaultHandlerExceptionResolver-Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'postSaveReq' on field 'appointmentTime': rejected value [2025-01-23T12:26]; codes [typeMismatch.postSaveReq.appointmentTime,typeMismatch.appointmentTime,typeMismatch.java.time.LocalDateTime,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [postSaveReq.appointmentTime,appointmentTime]; arguments []; default message [appointmentTime]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.time.LocalDateTime' for property 'appointmentTime'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.time.LocalDateTime] for value [2025-01-23T12:26]; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [2025-01-23T12:26]]]
+2025-01-23 12:36 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:36 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 12:36 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 12:39 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 12:39 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 1460 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 12:39 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 12:39 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 12:39 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2025-01-23 12:39 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 12:39 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:39 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 12:39 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 12:39 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 12:39 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1614 ms
+2025-01-23 12:39 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 12:39 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 12:39 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 12:39 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 12:39 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 12:39 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 12:39 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 12:39 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 12:39 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 12:39 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 12:39 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 12:39 com.example.board.BoardApplication-Started BoardApplication in 4.489 seconds (JVM running for 5.138)
+2025-01-23 12:39 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 12:39 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 12:39 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-23 13:53 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m23s244ms676µs300ns).
+2025-01-23 14:13 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 14:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 14:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 14:13 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 14:13 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 11068 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 14:13 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 14:13 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 14:13 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2025-01-23 14:13 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 14:13 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 14:13 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 14:13 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 14:13 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 14:13 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1534 ms
+2025-01-23 14:13 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 14:13 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 14:13 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 14:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 14:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 14:13 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 14:13 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 14:13 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 14:13 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 14:13 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 14:13 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 14:13 com.example.board.BoardApplication-Started BoardApplication in 4.337 seconds (JVM running for 5.002)
+2025-01-23 14:13 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 14:13 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 14:13 o.s.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-01-23 14:31 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 14:31 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 14:31 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 14:31 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 14:31 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 14560 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 14:31 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 14:31 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 14:31 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2025-01-23 14:31 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 14:31 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 14:31 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 14:31 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 14:31 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 14:31 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1591 ms
+2025-01-23 14:31 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 14:31 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 14:31 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 14:31 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 14:31 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 14:31 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 14:31 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 14:31 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 14:31 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 14:31 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 14:31 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 14:31 com.example.board.BoardApplication-Started BoardApplication in 4.302 seconds (JVM running for 4.992)
+2025-01-23 14:31 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 14:31 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 14:31 o.s.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-01-23 15:13 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 15:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 15:13 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 15:13 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 6148 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 15:13 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 15:13 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 15:13 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2025-01-23 15:13 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 15:13 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 15:13 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 15:13 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 15:13 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 15:13 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1582 ms
+2025-01-23 15:13 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 15:13 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 15:13 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 15:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 15:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 15:13 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 15:13 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 15:13 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:13 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 15:13 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 15:13 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 15:13 com.example.board.BoardApplication-Started BoardApplication in 4.208 seconds (JVM running for 4.906)
+2025-01-23 15:13 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 15:13 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 15:13 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-23 15:18 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:18 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 15:18 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 15:18 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 15:18 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 5280 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 15:18 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 15:19 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 15:19 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2025-01-23 15:19 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 15:19 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 15:19 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 15:19 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 15:19 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 15:19 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1628 ms
+2025-01-23 15:19 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 15:19 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 15:19 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 15:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 15:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 15:19 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 15:19 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 15:19 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:19 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 15:19 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 15:19 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 15:19 com.example.board.BoardApplication-Started BoardApplication in 4.327 seconds (JVM running for 4.973)
+2025-01-23 15:19 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 15:19 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 15:19 o.s.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-01-23 15:19 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 15:19 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 15:20 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 15:20 com.example.board.BoardApplication-Starting BoardApplication using Java 11.0.25 on DESKTOP-80H9AQK with PID 1664 (C:\Users\Playdata\Desktop\board (1)\board\out\production\classes started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 15:20 com.example.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-23 15:20 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 15:20 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2025-01-23 15:20 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-23 15:20 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-23 15:20 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-23 15:20 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.74]
+2025-01-23 15:20 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-23 15:20 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1547 ms
+2025-01-23 15:20 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 15:20 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 15:20 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 15:20 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 15:20 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 15:20 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 15:20 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 15:20 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:20 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 15:20 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-23 15:20 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-23 15:20 com.example.board.BoardApplication-Started BoardApplication in 4.289 seconds (JVM running for 5.06)
+2025-01-23 15:21 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 15:21 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-23 15:21 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-23 16:12 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:12 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 16:12 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 16:16 o.s.b.t.c.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.board.author.AuthorRepositoryTest], using SpringBootContextLoader
+2025-01-23 16:16 o.s.t.c.s.AbstractContextLoader-Could not detect default resource locations for test class [com.example.board.author.AuthorRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-01-23 16:16 o.s.t.c.s.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.example.board.author.AuthorRepositoryTest]: AuthorRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-23 16:16 o.s.b.t.c.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.example.board.BoardApplication for test class com.example.board.author.AuthorRepositoryTest
+2025-01-23 16:16 o.s.b.t.c.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-01-23 16:16 o.s.b.t.c.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@36b0fcd5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4fad94a7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@475835b1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6326d182, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5241cf67, org.springframework.test.context.support.DirtiesContextTestExecutionListener@716a7124, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77192705, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@226642a5, org.springframework.test.context.event.EventPublishingTestExecutionListener@7e809b79, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5cc126dc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@625e134e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@72bd06ca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@89c10b7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5dbe30be, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4fe89c24]
+2025-01-23 16:16 c.e.b.author.AuthorRepositoryTest-Starting AuthorRepositoryTest using Java 11.0.25 on DESKTOP-80H9AQK with PID 16564 (started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 16:16 c.e.b.author.AuthorRepositoryTest-The following 1 profile is active: "local"
+2025-01-23 16:16 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 16:16 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 16:16 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2025-01-23 16:16 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 16:16 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 16:16 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 16:16 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 16:16 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 16:16 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 16:16 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 16:16 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:16 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 16:16 c.e.b.author.AuthorRepositoryTest-Started AuthorRepositoryTest in 4.158 seconds (JVM running for 5.911)
+2025-01-23 16:16 o.s.t.c.t.TransactionContext-Began transaction (1) for test context [DefaultTestContext@62cb977a testClass = AuthorRepositoryTest, testInstance = com.example.board.author.AuthorRepositoryTest@7db70494, testMethod = authorSaveTest@AuthorRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3f030217 testClass = AuthorRepositoryTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2e1ef60, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42bc14c1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6f3c660a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@40238dd0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6fb365ed, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@56de5251], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@5192b301]; rollback [true]
+2025-01-23 16:16 o.s.t.c.t.TransactionContext-Rolled back transaction for test: [DefaultTestContext@62cb977a testClass = AuthorRepositoryTest, testInstance = com.example.board.author.AuthorRepositoryTest@7db70494, testMethod = authorSaveTest@AuthorRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3f030217 testClass = AuthorRepositoryTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2e1ef60, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42bc14c1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6f3c660a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@40238dd0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6fb365ed, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@56de5251], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2025-01-23 16:16 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:16 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 16:16 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 16:29 o.s.b.t.c.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.board.author.AuthorServiceTest], using SpringBootContextLoader
+2025-01-23 16:29 o.s.t.c.s.AbstractContextLoader-Could not detect default resource locations for test class [com.example.board.author.AuthorServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-01-23 16:29 o.s.t.c.s.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.example.board.author.AuthorServiceTest]: AuthorServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-23 16:29 o.s.b.t.c.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.example.board.BoardApplication for test class com.example.board.author.AuthorServiceTest
+2025-01-23 16:29 o.s.b.t.c.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-01-23 16:29 o.s.b.t.c.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@fd0e5b6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4eed46ee, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@36b0fcd5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4fad94a7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@475835b1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6326d182, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5241cf67, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@716a7124, org.springframework.test.context.event.EventPublishingTestExecutionListener@77192705, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@226642a5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7e809b79, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5cc126dc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@625e134e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@72bd06ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@89c10b7]
+2025-01-23 16:29 c.e.board.author.AuthorServiceTest-Starting AuthorServiceTest using Java 11.0.25 on DESKTOP-80H9AQK with PID 8976 (started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 16:29 c.e.board.author.AuthorServiceTest-The following 1 profile is active: "local"
+2025-01-23 16:29 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 16:29 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 16:29 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2025-01-23 16:29 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 16:29 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 16:29 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 16:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 16:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 16:29 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 16:29 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 16:29 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:29 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 16:29 c.e.board.author.AuthorServiceTest-Started AuthorServiceTest in 4.102 seconds (JVM running for 5.275)
+2025-01-23 16:29 o.s.t.c.t.TransactionContext-Began transaction (1) for test context [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@73e63b4d, testMethod = authorSaveTest@AuthorServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7d1cfb8b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@21a21c64, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6436a7db, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@16fdec90, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3549bca9, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4278a03f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@5192b301]; rollback [true]
+2025-01-23 16:29 o.s.t.c.t.TransactionContext-Rolled back transaction for test: [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@73e63b4d, testMethod = authorSaveTest@AuthorServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7d1cfb8b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@21a21c64, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6436a7db, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@16fdec90, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3549bca9, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4278a03f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2025-01-23 16:29 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 16:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 16:30 o.s.b.t.c.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.board.author.AuthorServiceTest], using SpringBootContextLoader
+2025-01-23 16:30 o.s.t.c.s.AbstractContextLoader-Could not detect default resource locations for test class [com.example.board.author.AuthorServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-01-23 16:30 o.s.t.c.s.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.example.board.author.AuthorServiceTest]: AuthorServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-23 16:30 o.s.b.t.c.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.example.board.BoardApplication for test class com.example.board.author.AuthorServiceTest
+2025-01-23 16:30 o.s.b.t.c.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-01-23 16:30 o.s.b.t.c.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@fd0e5b6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4eed46ee, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@36b0fcd5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4fad94a7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@475835b1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6326d182, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5241cf67, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@716a7124, org.springframework.test.context.event.EventPublishingTestExecutionListener@77192705, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@226642a5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7e809b79, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5cc126dc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@625e134e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@72bd06ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@89c10b7]
+2025-01-23 16:30 c.e.board.author.AuthorServiceTest-Starting AuthorServiceTest using Java 11.0.25 on DESKTOP-80H9AQK with PID 6700 (started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 16:30 c.e.board.author.AuthorServiceTest-The following 1 profile is active: "local"
+2025-01-23 16:30 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 16:30 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 16:30 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2025-01-23 16:30 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 16:30 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 16:30 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 16:30 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 16:30 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 16:30 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 16:30 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 16:30 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:30 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 16:30 c.e.board.author.AuthorServiceTest-Started AuthorServiceTest in 4.087 seconds (JVM running for 5.216)
+2025-01-23 16:30 o.s.t.c.t.TransactionContext-Began transaction (1) for test context [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@73e63b4d, testMethod = authorSaveTest@AuthorServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7d1cfb8b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@21a21c64, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6436a7db, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@16fdec90, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3549bca9, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4278a03f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@5192b301]; rollback [true]
+2025-01-23 16:30 o.s.t.c.t.TransactionContext-Rolled back transaction for test: [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@73e63b4d, testMethod = authorSaveTest@AuthorServiceTest, testException = java.lang.NullPointerException, mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7d1cfb8b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@21a21c64, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6436a7db, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@16fdec90, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3549bca9, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4278a03f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2025-01-23 16:30 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:30 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 16:30 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 16:30 o.s.b.t.c.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.board.author.AuthorServiceTest], using SpringBootContextLoader
+2025-01-23 16:30 o.s.t.c.s.AbstractContextLoader-Could not detect default resource locations for test class [com.example.board.author.AuthorServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-01-23 16:30 o.s.t.c.s.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.example.board.author.AuthorServiceTest]: AuthorServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-23 16:30 o.s.b.t.c.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.example.board.BoardApplication for test class com.example.board.author.AuthorServiceTest
+2025-01-23 16:30 o.s.b.t.c.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-01-23 16:30 o.s.b.t.c.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@fd0e5b6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4eed46ee, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@36b0fcd5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4fad94a7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@475835b1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6326d182, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5241cf67, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@716a7124, org.springframework.test.context.event.EventPublishingTestExecutionListener@77192705, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@226642a5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7e809b79, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5cc126dc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@625e134e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@72bd06ca, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@89c10b7]
+2025-01-23 16:30 c.e.board.author.AuthorServiceTest-Starting AuthorServiceTest using Java 11.0.25 on DESKTOP-80H9AQK with PID 14460 (started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 16:30 c.e.board.author.AuthorServiceTest-The following 1 profile is active: "local"
+2025-01-23 16:30 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 16:30 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 16:30 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2025-01-23 16:30 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 16:30 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 16:30 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 16:30 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 16:30 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 16:30 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 16:30 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 16:30 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:30 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 16:30 c.e.board.author.AuthorServiceTest-Started AuthorServiceTest in 4.219 seconds (JVM running for 5.41)
+2025-01-23 16:30 o.s.t.c.t.TransactionContext-Began transaction (1) for test context [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@73e63b4d, testMethod = authorSaveTest@AuthorServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7d1cfb8b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@21a21c64, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6436a7db, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@16fdec90, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3549bca9, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4278a03f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@5192b301]; rollback [true]
+2025-01-23 16:30 o.s.t.c.t.TransactionContext-Rolled back transaction for test: [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@73e63b4d, testMethod = authorSaveTest@AuthorServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7d1cfb8b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@21a21c64, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6436a7db, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@16fdec90, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3549bca9, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4278a03f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2025-01-23 16:30 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:30 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 16:30 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 16:38 o.s.b.t.c.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.board.author.AuthorServiceTest], using SpringBootContextLoader
+2025-01-23 16:38 o.s.t.c.s.AbstractContextLoader-Could not detect default resource locations for test class [com.example.board.author.AuthorServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-01-23 16:38 o.s.t.c.s.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.example.board.author.AuthorServiceTest]: AuthorServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-23 16:38 o.s.b.t.c.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.example.board.BoardApplication for test class com.example.board.author.AuthorServiceTest
+2025-01-23 16:38 o.s.b.t.c.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-01-23 16:38 o.s.b.t.c.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.board.author.AuthorServiceTest], using SpringBootContextLoader
+2025-01-23 16:38 o.s.t.c.s.AbstractContextLoader-Could not detect default resource locations for test class [com.example.board.author.AuthorServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-01-23 16:38 o.s.t.c.s.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.example.board.author.AuthorServiceTest]: AuthorServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-23 16:38 o.s.b.t.c.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.example.board.BoardApplication for test class com.example.board.author.AuthorServiceTest
+2025-01-23 16:38 o.s.b.t.c.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-01-23 16:38 o.s.b.t.c.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@36b0fcd5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4fad94a7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@475835b1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6326d182, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5241cf67, org.springframework.test.context.support.DirtiesContextTestExecutionListener@716a7124, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77192705, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@226642a5, org.springframework.test.context.event.EventPublishingTestExecutionListener@7e809b79, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5cc126dc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@625e134e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@72bd06ca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@89c10b7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5dbe30be, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4fe89c24]
+2025-01-23 16:38 c.e.board.author.AuthorServiceTest-Starting AuthorServiceTest using Java 11.0.25 on DESKTOP-80H9AQK with PID 9692 (started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 16:38 c.e.board.author.AuthorServiceTest-The following 1 profile is active: "local"
+2025-01-23 16:38 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 16:38 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 16:38 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2025-01-23 16:38 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 16:38 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 16:38 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 16:38 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 16:38 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 16:38 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 16:38 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 16:38 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:38 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 16:38 c.e.board.author.AuthorServiceTest-Started AuthorServiceTest in 4.107 seconds (JVM running for 5.239)
+2025-01-23 16:38 o.s.t.c.t.TransactionContext-Began transaction (1) for test context [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@73e63b4d, testMethod = findAllTest@AuthorServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2e1ef60, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42bc14c1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6f3c660a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@40238dd0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6fb365ed, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@147ed70f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@5192b301]; rollback [true]
+2025-01-23 16:38 o.s.t.c.t.TransactionContext-Rolled back transaction for test: [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@73e63b4d, testMethod = findAllTest@AuthorServiceTest, testException = org.opentest4j.AssertionFailedError: expected: <10> but was: <7>, mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2e1ef60, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42bc14c1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6f3c660a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@40238dd0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6fb365ed, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@147ed70f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2025-01-23 16:38 o.s.t.c.t.TransactionContext-Began transaction (1) for test context [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@662b199, testMethod = authorSaveTest@AuthorServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2e1ef60, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42bc14c1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6f3c660a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@40238dd0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6fb365ed, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@147ed70f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@5192b301]; rollback [true]
+2025-01-23 16:38 o.s.t.c.t.TransactionContext-Rolled back transaction for test: [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@662b199, testMethod = authorSaveTest@AuthorServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2e1ef60, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42bc14c1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6f3c660a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@40238dd0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6fb365ed, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@147ed70f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2025-01-23 16:38 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:38 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 16:38 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-01-23 16:39 o.s.b.t.c.SpringBootTestContextBootstrapper-Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.board.author.AuthorServiceTest], using SpringBootContextLoader
+2025-01-23 16:39 o.s.t.c.s.AbstractContextLoader-Could not detect default resource locations for test class [com.example.board.author.AuthorServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-01-23 16:39 o.s.t.c.s.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.example.board.author.AuthorServiceTest]: AuthorServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-23 16:39 o.s.b.t.c.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.example.board.BoardApplication for test class com.example.board.author.AuthorServiceTest
+2025-01-23 16:39 o.s.b.t.c.SpringBootTestContextBootstrapper-Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-01-23 16:39 o.s.b.t.c.SpringBootTestContextBootstrapper-Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@36b0fcd5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4fad94a7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@475835b1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6326d182, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5241cf67, org.springframework.test.context.support.DirtiesContextTestExecutionListener@716a7124, org.springframework.test.context.transaction.TransactionalTestExecutionListener@77192705, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@226642a5, org.springframework.test.context.event.EventPublishingTestExecutionListener@7e809b79, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5cc126dc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@625e134e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@72bd06ca, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@89c10b7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5dbe30be, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4fe89c24]
+2025-01-23 16:39 c.e.board.author.AuthorServiceTest-Starting AuthorServiceTest using Java 11.0.25 on DESKTOP-80H9AQK with PID 8068 (started by Playdata in C:\Users\Playdata\Desktop\board (1)\board)
+2025-01-23 16:39 c.e.board.author.AuthorServiceTest-The following 1 profile is active: "local"
+2025-01-23 16:39 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2025-01-23 16:39 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 16:39 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+2025-01-23 16:39 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 16:39 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-01-23 16:39 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-23 16:39 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-23 16:39 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-23 16:39 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-23 16:39 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-23 16:39 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:39 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 16:39 c.e.board.author.AuthorServiceTest-Started AuthorServiceTest in 3.977 seconds (JVM running for 5.158)
+2025-01-23 16:39 o.s.t.c.t.TransactionContext-Began transaction (1) for test context [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@73e63b4d, testMethod = findAllTest@AuthorServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2e1ef60, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42bc14c1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6f3c660a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@40238dd0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6fb365ed, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@147ed70f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@5192b301]; rollback [true]
+2025-01-23 16:39 o.s.t.c.t.TransactionContext-Rolled back transaction for test: [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@73e63b4d, testMethod = findAllTest@AuthorServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2e1ef60, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42bc14c1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6f3c660a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@40238dd0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6fb365ed, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@147ed70f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2025-01-23 16:39 o.s.t.c.t.TransactionContext-Began transaction (1) for test context [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@726dd367, testMethod = authorSaveTest@AuthorServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2e1ef60, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42bc14c1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6f3c660a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@40238dd0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6fb365ed, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@147ed70f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@5192b301]; rollback [true]
+2025-01-23 16:39 o.s.t.c.t.TransactionContext-Rolled back transaction for test: [DefaultTestContext@54d2887a testClass = AuthorServiceTest, testInstance = com.example.board.author.AuthorServiceTest@726dd367, testMethod = authorSaveTest@AuthorServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8aafd70 testClass = AuthorServiceTest, locations = '{}', classes = '{class com.example.board.BoardApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2e1ef60, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42bc14c1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6f3c660a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@40238dd0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6fb365ed, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@147ed70f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2025-01-23 16:39 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 16:39 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-01-23 16:39 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
