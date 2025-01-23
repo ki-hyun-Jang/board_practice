@@ -6,6 +6,7 @@ import com.example.board.author.domain.dto.AuthorSaveReq;
 import com.example.board.author.domain.dto.AuthorUpdateReq;
 import com.example.board.author.service.AuthorService;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -21,16 +22,22 @@ public class AuthorController {
         this.authorService = authorService;
     }
 
+    @GetMapping("/create")
+    public String viewAuthorCreate(){
+        return "/author/author_create";
+    }
+
     @PostMapping("/create")
     public String author(@Valid AuthorSaveReq dto){
         authorService.save(dto);
-        return "ok";
+        return "redirect:/";
     }
 
     @GetMapping("/list")
-    public String findAll(){
+    public String findAll(Model model){
         List<AuthorListRes> authorListResList = authorService.findAll();
-        return "author/author_list";
+        model.addAttribute("authorList",authorListResList);
+        return "/author/author_list";
     }
 
     @GetMapping("/delete/{id}")
@@ -40,8 +47,10 @@ public class AuthorController {
     }
 
     @GetMapping("/detail/{id}")
-    public AuthorDetailRes detailAuthor(@PathVariable Long id){
-        return authorService.authorDetail(id);
+    public String detailAuthor (@PathVariable Long id, Model model) {
+        model.addAttribute("author", authorService.authorDetail(id));
+//        "author"라는 변수에 데이터 세팅해서 화면 리턴
+        return "/author/author_detail";
     }
 
     @PostMapping("/update/{id}")

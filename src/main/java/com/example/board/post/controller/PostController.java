@@ -10,6 +10,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -21,7 +23,7 @@ import java.util.List;
 //2)글목록조회(post/list)
 //  -id, title, author_email return (json)
 //        -DTO명 : PostListRes
-@RestController
+@Controller
 @RequestMapping("/post")
 public class PostController {
 
@@ -32,20 +34,29 @@ public class PostController {
         this.postService = postService;
     }
 
+    @GetMapping("/create")
+    public String viewPostCreate(){
+        return "/post/post_create";
+    }
+
     @PostMapping("/create")
     public String postCreate(@Valid PostSaveReq dto){
         postService.save(dto);
-        return "ok";
+        return "redirect:/";
     }
 
     @GetMapping("/list")
-    public List<PostListRes> postList(){
-        return postService.findAll();
+    public String postList(Model model){
+        List<PostListRes> postListResList = postService.findAll();
+        model.addAttribute("postListResList",postListResList);
+        return "/post/post_list";
     }
 
     @GetMapping("detail/{id}")
-    public PostDetailRes postDetailById(@PathVariable Long id){
-        return postService.findById(id);
+    public String postDetailById(@PathVariable Long id, Model model){
+        PostDetailRes postDetailRes = postService.findById(id);
+        model.addAttribute("postDetailRes",postDetailRes);
+        return "/post/post_detail";
     }
 
     @PostMapping("update/{id}")
@@ -62,7 +73,9 @@ public class PostController {
 
     @GetMapping("/list/paging")
 //    페이징처리를 위한 데이터 형식: localhost:8080/post/list/paging?size=10&page=0&sort=createdTime,desc
-    public Page<PostListRes> postListPaging(@PageableDefault(size = 10, sort = "createdTime", direction = Sort.Direction.DESC) Pageable pageable){
-        return postService.findAllPaging(pageable);
+    public String postListPaging(Model model,
+                                            @PageableDefault(size = 10, sort = "id", direction = Sort.Direction.DESC) Pageable pageable){
+        model.addAttribute("postListResList", postService.findAllPaging(pageable));
+        return "post/post_list";
     }
 }

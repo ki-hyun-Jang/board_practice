@@ -6,7 +6,6 @@ import com.example.board.author.repository.AuthorRepository;
 import com.example.board.author.domain.Author;
 import com.example.board.author.domain.dto.AuthorListRes;
 import com.example.board.author.domain.dto.AuthorSaveReq;
-//import com.example.board.repository.AuthorRepository;
 import com.example.board.post.repository.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
